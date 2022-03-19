@@ -1,0 +1,113 @@
+.main_container {
+    width: 100%;
+}
+
+.list_container,
+.addUserBtn, dialog {
+    width: 80%;
+    margin: 20px auto auto auto;
+    border: solid #ffecec;
+    padding: 2%;
+}
+
+table {
+
+    table-layout: fixed;
+    width: 100%;
+}
+dialog{
+    margin: auto;
+    border-radius: 20px;
+}
+table,
+th,
+td {
+    border-bottom: 1px solid #bbbbbb;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.action {
+    text-align: end;
+}
+
+.valide div {
+    background-color: #5BE881;
+    
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+.rejected div {
+    background-color: #FF0000;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.on-validation div {
+    background-color: #FDB64D;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+    color: #ffffff;
+}
+.addUserBtn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+button{
+    cursor: pointer;
+    border: none;  
+    
+}
+.remove{
+    background: none;
+}
+
+
+#btnAdd, .btnEnregitrer {
+    background-color: #FFAA0A;
+    border-radius: 20px;
+    padding: 10px 60px;
+    color: #fff;
+    
+}
+.btnClose{
+    margin-right: 10px;
+    background-color: #ff0a0a;
+    border-radius: 20px;
+    padding: 10px 60px;
+    color: #fff;
+}
+.btnEnregitrerCnt{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.addContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.addContainer input{
+    outline: none;
+    margin: 10px auto;
+    width: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #b3cbcc;
+}
+.addContainer label{
+    color: #303030;
+}
+.elemnt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}

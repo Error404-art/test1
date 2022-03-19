@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="list_container">
+            <table id="table">
+                <tr>
+                    <th>ID</th>
+                    <th>Date de creation</th>
+                    <th>Etat</th>
+                    <th>Nom</th>
+                    <th>Prenom</th>
+                    <th>Nom d'utilisateur</th>
+                    <th>Matricule</th>
+                    <th id="action">Action</th>
+                </tr>
+            </table>
+        </div>
+        <div class="addUserBtn">
+            <button id="btnAdd">Ajouter utilisatuer</button>
+        </div>
+        <dialog>
+
+            <h2>Ajout d'utilisateurs</h2>
+            <form id="form">
+            <div class="addContainer">
+                <div class="row">
+                    <div class="elemnt">
+                        <label for="nom">Nom</label>
+                        <input id="nom" type="text" name="nom" value="" required>
+                    </div>
+                    <div class="elemnt">
+                        <label for="prenom"> Prenom</label> 
+                        <input id="prenom" type="text" name="prenom" value="" required>
+                    </div >
+                    <div class="elemnt">
+                        <label for="Etat">Etat</label>
+                        <input id="etat" type="text" name="Etat" value="" placeholder="Validé/Rejeté/En validation" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="elemnt">
+                        <label for="user">Nom d'utilisateur</label>
+                        <input id="user" type="text" name="user" value="" required>
+                    </div >
+                    <div class="elemnt">
+                        <label for="dateCreation">Date de creation</label>
+                        <input id="dateCreation" type="text" name="dateCreation" value="" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="elemnt">
+                        <label for="matricule">Matricule</label>
+                        <input id="matricule" type="text" name="matricule" value="" required>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="btnEnregitrerCnt">
+                <button class="btnEnregitrer">Enregistrer</button>
+                <button class="btnClose" onclick="closeDialog()">close</button>
+            </div>
+            </form>
+        </dialog>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
